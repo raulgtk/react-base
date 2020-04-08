@@ -1,0 +1,22 @@
+.navbar {
+  border: 1px solid #e7e7e7;
+  margin: 15px;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #777 !important;
+}
+.navbar-toggler {
+  font-size: 1rem;
+  padding: .25rem .50rem;
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    border-top: 1px solid #e7e7e7;
+    margin-top: 8px;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }  
+}
